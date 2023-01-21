@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.559cfb2f.css",
-    "main.js": "/portfolio/static/js/main.9a4b9eeb.js",
-    "static/media/ecommerce.png": "/portfolio/static/media/ecommerce.522da76635d52117102b.png",
-    "static/media/sidebar.png": "/portfolio/static/media/sidebar.b2225070b8adae68d063.png",
+    "main.css": "/portfolio/static/css/main.561d7ab8.css",
+    "main.js": "/portfolio/static/js/main.59f60912.js",
+    "static/media/byteshop.png": "/portfolio/static/media/byteshop.12e3f699b4c4c3152e20.png",
+    "static/media/port.png": "/portfolio/static/media/port.c8beeb331366cc8c6cde.png",
     "static/media/myresume.pdf": "/portfolio/static/media/myresume.0054b7f5b007ffa0d693.pdf",
-    "static/media/musicapp.png": "/portfolio/static/media/musicapp.f1c301f91904ef5f9249.png",
+    "static/media/ichat.png": "/portfolio/static/media/ichat.2e7c4bf62b132e52c605.png",
     "static/media/boy.png": "/portfolio/static/media/boy.5ca4b670a32b71681d2c.png",
+    "static/media/blogimg.png": "/portfolio/static/media/blogimg.b20043568ec3b1c44280.png",
     "static/media/glassesimoji.png": "/portfolio/static/media/glassesimoji.a08bdab12e8eb56a6874.png",
     "static/media/hoc.png": "/portfolio/static/media/hoc.e6af51fc04c57ae67096.png",
     "static/media/thumbup.png": "/portfolio/static/media/thumbup.e06790ba656f0397cbe5.png",
@@ -17,11 +18,11 @@
     "static/media/Vector2.png": "/portfolio/static/media/Vector2.28db5bfd58081dd1df1b.png",
     "static/media/glasses.png": "/portfolio/static/media/glasses.71d7c1b0ff0b870a9d7d.png",
     "index.html": "/portfolio/index.html",
-    "main.559cfb2f.css.map": "/portfolio/static/css/main.559cfb2f.css.map",
-    "main.9a4b9eeb.js.map": "/portfolio/static/js/main.9a4b9eeb.js.map"
+    "main.561d7ab8.css.map": "/portfolio/static/css/main.561d7ab8.css.map",
+    "main.59f60912.js.map": "/portfolio/static/js/main.59f60912.js.map"
   },
   "entrypoints": [
-    "static/css/main.559cfb2f.css",
-    "static/js/main.9a4b9eeb.js"
+    "static/css/main.561d7ab8.css",
+    "static/js/main.59f60912.js"
   ]
 }

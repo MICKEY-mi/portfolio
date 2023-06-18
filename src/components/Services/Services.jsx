@@ -27,9 +27,9 @@ const Services = () => {
         <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
         <span>services</span>
         <span>
-          Lorem ispum is simpley dummy text of printing of printing Lorem
+        Work collaboratively with clients to provide rapid, robust and client-acclaimed 
           <br />
-          ispum is simpley dummy text of printing
+          front- and back-end web development. optimizing user experience
         </span>
         <a href={Resume} download>
           <button className="button s-button">Download RESUME</button>
@@ -45,9 +45,9 @@ const Services = () => {
           transition={transition}
         >
           <Card
-            emoji={HeartEmoji}
-            heading={"Design"}
-            detail={"Figma, Sketch, Photoshop, Adobe Illustrator, Adobe xd"}
+            emoji={Glasses}
+            heading={"Developer"}
+            detail={"Html, Css, JavaScript, React, Nodejs, Express, Mongodb"}
           />
         </motion.div>
         {/* second card */}
@@ -57,9 +57,9 @@ const Services = () => {
           transition={transition}
         >
           <Card
-            emoji={Glasses}
-            heading={"Developer"}
-            detail={"Html, Css, JavaScript, React, Nodejs, Express"}
+            emoji={HeartEmoji}
+            heading={"Coding"}
+            detail={"C, C++, OOPS, Data Structure and Algorithm, Dynamic Programming"}
           />
         </motion.div>
         {/* 3rd */}
@@ -70,9 +70,9 @@ const Services = () => {
         >
           <Card
             emoji={Humble}
-            heading={"UI/UX"}
+            heading={"Hosting"}
             detail={
-              "Lorem ispum dummy text are usually use in section where we need some random text"
+              "We compared popular web hosting services across essential criteria like security, uptime and more to help you to host your website."
             }
             color="rgba(252, 166, 31, 0.45)"
           />

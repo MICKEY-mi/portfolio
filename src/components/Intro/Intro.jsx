@@ -6,7 +6,7 @@ import boy from "../../img/boy.png";
 import glassesimoji from "../../img/glassesimoji.png";
 import thumbup from "../../img/thumbup.png";
 import crown from "../../img/crown.png";
-import FloatinDiv from "../FloatingDiv/FloatingDiv";
+import FloatingDiv from "../FloatingDiv/FloatingDiv";
 import Github from "../../img/github.png";
 import LinkedIn from "../../img/linkedin.png";
 import Instagram from "../../img/instagram.png";
@@ -30,19 +30,19 @@ const Intro = () => {
           <span style={{ color: darkMode ? "white" : "" }}>Hy! I Am</span>
           <span>Shivam kumar</span>
           <span>
-            Frontend Developer with high level of experience in web designing
+            Full Stack Webdeveloper with high level of experience in web designing
             and development, producting the Quality work
           </span>
         </div>
         <Link to="contact" smooth={true} spy={true}>
-          <button className="button i-button">Hire me</button>
+          <button className="button i-button">Collaborate</button>
         </Link>
         {/* social icons */}
         <div className="i-icons">
-          <a href="https://github.com/MICKEY-mi">
+          <a href="https://github.com/ShivamKumar-mnnit">
           <img src={Github} alt="#" />  
           </a>
-          <a href="https://www.linkedin.com/in/shivam-kumar-9b2520224?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BLs6YrrONTi66SJqkBt%2FaZw%3D%3D">
+          <a href="https://www.linkedin.com/in/kumar-shivam2028/">
           <img src={LinkedIn} alt="" />
           </a>
           <a href="https://instagram.com/shivamkumar6188?igshid=ZmZhODViOGI=">
@@ -50,7 +50,7 @@ const Intro = () => {
           </a>
         </div>
       </div>
-      {/* right image side */}
+      {/* right side image */}
       <div className="i-right">
         <img src={Vector1} alt="" />
         <img src={Vector2} alt="" />
@@ -70,7 +70,7 @@ const Intro = () => {
           transition={transition}
           className="floating-div"
         >
-          <FloatinDiv img={crown} text1="Web" text2="Developer" />
+          <FloatingDiv img={crown} text1="Web" text2="Developer" />
         </motion.div>
 
         {/* animation */}
@@ -80,8 +80,8 @@ const Intro = () => {
           transition={transition}
           className="floating-div"
         >
-          {/* floatinDiv mein change hy dark mode ka */}
-          <FloatinDiv img={thumbup} text1="Best Design" text2="Award" />
+          {/* there is a change in floating div in darkmode*/}
+          <FloatingDiv img={thumbup} text1=" tech" text2=" enthusiast" />
         </motion.div>
 
         <div className="blur" style={{ background: "rgb(238 210 255)" }}></div>

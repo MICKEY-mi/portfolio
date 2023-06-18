@@ -1,10 +1,9 @@
 import React, { useContext } from "react";
 import "./Works.css";
-import Upwork from "../../img/Upwork.png";
-import Fiverr from "../../img/fiverr.png";
-import Amazon from "../../img/amazon.png";
-import Shopify from "../../img/Shopify.png";
-import Facebook from "../../img/Facebook.png";
+import Upwork from "../../img/robo.png";
+import Fiverr from "../../img/avishkar.png";
+import Shopify from "../../img/pendown2.png";
+
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
 import {Link} from 'react-scroll'
@@ -25,17 +24,16 @@ const Works = () => {
           </span>
           <span>Brands & Clients</span>
           <spane>
-            Lorem ispum is simpley dummy text of printing of printing Lorem
+            Collaborate with Students to help them in building their websites.
             <br />
-            ispum is simpley dummy text of printingLorem ispum is simpley dummy
-            text
+            provide hosting to them via different paid and unpaid platforms to make their website live.
             <br />
-            y dummy text of printingLorem
+            Developed a website for Senior mentorship program to provide
             <br />
-            ispum is simpley dummy text of printing
+            juniors study materials and to resolve their queries as per the new curriculum.
           </spane>
           <Link to="contact" smooth={true} spy={true}>
-            <button className="button s-button">Hire Me</button>
+            <button className="button s-button">Work with Me</button>
           </Link>
           <div
             className="blur s-blur1"
@@ -60,14 +58,13 @@ const Works = () => {
             <img src={Fiverr} alt="" />
           </div>
           <div className="w-secCircle">
-            <img src={Amazon} alt="" />
+            <h1>Fresher</h1>
+            {/*<img src={Amazon} alt="" />*/}
           </div>{" "}
           <div className="w-secCircle">
             <img src={Shopify} alt="" />
           </div>
-          <div className="w-secCircle">
-            <img src={Facebook} alt="" />
-          </div>
+         
         </motion.div>
         {/* background Circles */}
         <div className="w-backCircle blueCircle"></div>

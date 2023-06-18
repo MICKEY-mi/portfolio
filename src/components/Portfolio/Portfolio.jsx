@@ -2,10 +2,11 @@ import React, { useContext } from "react";
 import "./Portfolio.css";
 import { Swiper, SwiperSlide } from "swiper/react"
 import "swiper/css";
-import Sidebar from "../../img/sidebar.png";
-import Ecommerce from "../../img/ecommerce.png";
+import Byteshop from "../../img/byteshop.png";
+import Pendown from "../../img/pendown.png";
 import HOC from "../../img/hoc.png";
-import MusicApp from "../../img/musicapp.png";
+import ichat from "../../img/ichat.png";
+import portfolio from "../../img/port.png";
 import { themeContext } from "../../Context";
 const Portfolio = () => {
   const theme = useContext(themeContext);
@@ -14,7 +15,7 @@ const Portfolio = () => {
     <div className="portfolio" id="portfolio">
       {/* heading */}
       <span style={{color: darkMode?'white': ''}}>Recent Projects</span>
-      <span>Portfolio</span>
+      <span>Events management system</span>
 
       {/* slider */}
       <Swiper
@@ -24,16 +25,34 @@ const Portfolio = () => {
         className="portfolio-slider"
       >
         <SwiperSlide>
-          <img src={Sidebar} alt="" />
+          <a href="https://pendown23.netlify.app/">
+          <img src={Pendown} alt="" />
+          <h1 align="center">pendown-for college profile management</h1>
+          </a>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={Ecommerce} alt="" />
+          <a href="https://github.com/ShivamKumar-mnnit/BETA-TECHS">
+          <img src={Byteshop} alt="" />
+          <h1 align="center">Ecommerce website</h1>
+          </a>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={MusicApp} alt="" />
+        <a href="https://github.com/ShivamKumar-mnnit/Galactic-ichat.github.io">
+          <img src={ichat} alt="" />
+          <h1 align="center">A realtime chat website</h1>
+          </a>
         </SwiperSlide>
         <SwiperSlide>
+          <a href="/">
+          <img src={portfolio} alt="" />
+          <h1 align="center">A github pages hosted Portfolio</h1>
+          </a>
+        </SwiperSlide>
+        <SwiperSlide>
+          <a href="https://github.com/Avtech04/robotics">
           <img src={HOC} alt="" />
+          <h1 align="center">Events management system-using Django</h1>
+          </a>
         </SwiperSlide>
       </Swiper>
     </div>

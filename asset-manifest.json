@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ShivamKumar-mnnit/portfolio/static/css/main.0dca8f47.css",
-    "main.js": "/ShivamKumar-mnnit/portfolio/static/js/main.4532cc81.js",
+    "main.css": "/ShivamKumar-mnnit/portfolio/static/css/main.f946eba9.css",
+    "main.js": "/ShivamKumar-mnnit/portfolio/static/js/main.51ead561.js",
     "static/media/byteshop.png": "/ShivamKumar-mnnit/portfolio/static/media/byteshop.12e3f699b4c4c3152e20.png",
     "static/media/pendown.png": "/ShivamKumar-mnnit/portfolio/static/media/pendown.3aece604c27135df8433.png",
     "static/media/port.png": "/ShivamKumar-mnnit/portfolio/static/media/port.c8beeb331366cc8c6cde.png",
@@ -21,11 +21,11 @@
     "static/media/Vector2.png": "/ShivamKumar-mnnit/portfolio/static/media/Vector2.28db5bfd58081dd1df1b.png",
     "static/media/glasses.png": "/ShivamKumar-mnnit/portfolio/static/media/glasses.71d7c1b0ff0b870a9d7d.png",
     "index.html": "/ShivamKumar-mnnit/portfolio/index.html",
-    "main.0dca8f47.css.map": "/ShivamKumar-mnnit/portfolio/static/css/main.0dca8f47.css.map",
-    "main.4532cc81.js.map": "/ShivamKumar-mnnit/portfolio/static/js/main.4532cc81.js.map"
+    "main.f946eba9.css.map": "/ShivamKumar-mnnit/portfolio/static/css/main.f946eba9.css.map",
+    "main.51ead561.js.map": "/ShivamKumar-mnnit/portfolio/static/js/main.51ead561.js.map"
   },
   "entrypoints": [
-    "static/css/main.0dca8f47.css",
-    "static/js/main.4532cc81.js"
+    "static/css/main.f946eba9.css",
+    "static/js/main.51ead561.js"
   ]
 }

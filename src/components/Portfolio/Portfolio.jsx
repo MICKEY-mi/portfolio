@@ -14,10 +14,12 @@ const Portfolio = () => {
   return (
     <div className="portfolio" id="portfolio">
       {/* heading */}
+      
       <span style={{color: darkMode?'white': ''}}>Recent Projects</span>
       <span>Events management system</span>
 
       {/* slider */}
+      
       <Swiper
         spaceBetween={30}
         slidesPerView={3}
@@ -54,6 +56,8 @@ const Portfolio = () => {
           <h1 align="center">Events management system-using Django</h1>
           </a>
         </SwiperSlide>
+       
+
       </Swiper>
     </div>
   );

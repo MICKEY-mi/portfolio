@@ -34,6 +34,9 @@
   margin-right: 4rem;
 }
 
+.n-list > ul >li >Link {
+  padding: 2px;
+}
 .n-list > ul :hover {
   color: var(--orange);
   cursor: pointer;
@@ -43,7 +46,7 @@
   flex: 2;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 880px) {
   .n-list {
     display: none;
   }

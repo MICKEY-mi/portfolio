@@ -34,10 +34,7 @@
   margin-right: 4rem;
 }
 
-.n-list > ul >li >Link {
-  padding: 2px;
-}
-.n-list > ul :hover {
+.n-list > ul > li :hover {
   color: var(--orange);
   cursor: pointer;
 }

@@ -30,8 +30,7 @@ const Intro = () => {
           <span style={{ color: darkMode ? "white" : "" }}>Hy! I Am</span>
           <span>Shivam kumar</span>
           <span>
-            Full Stack Webdeveloper with high level of experience in web designing
-            and development, producting the Quality work
+           Passionate and seasoned, I am a results-driven programmer and web developer committed to producing impactful and high-quality solutions that seamlessly blend innovation with an exceptional user experience.
           </span>
         </div>
         <Link to="contact" smooth={true} spy={true}>
@@ -81,14 +80,14 @@ const Intro = () => {
           className="floating-div"
         >
           {/* there is a change in floating div in darkmode*/}
-          <FloatingDiv img={thumbup} text1=" tech" text2=" enthusiast" />
+          <FloatingDiv img={thumbup} text1="Programmer"/>
         </motion.div>
 
-        <div className="blur" style={{ background: "rgb(238 210 255)" }}></div>
+        <div className="blur" style={{ background: "rgb(222 168 255)" }}></div>
         <div
           className="blur"
           style={{
-            background: "#C1F5FF",
+            background: "rgb(118 233 255)",
             top: "17rem",
             width: "21rem",
             height: "11rem",
@@ -96,6 +95,8 @@ const Intro = () => {
           }}
         ></div>
       </div>
+
+      
     </div>
   );
 };

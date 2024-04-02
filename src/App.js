@@ -6,6 +6,7 @@ import Experience from "./components/Experience/Experience";
 import Works from "./components/Works/Works";
 import Portfolio from "./components/Portfolio/Portfolio";
 import Testimonial from "./components/Testimonials/Testimonial";
+import About from "./components/About/About";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import { useContext } from "react";
@@ -23,11 +24,12 @@ function App() {
     >
       <Navbar />
       <Intro />
+      <About />
+      <Portfolio />
+      <Works />
       <Services />
       <Experience />
-      <Works />
-      <Portfolio />
-      <Testimonial />
+      {/* <Testimonial /> */}
       <Contact />
       <Footer />
     </div>

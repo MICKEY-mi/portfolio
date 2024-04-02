@@ -29,9 +29,13 @@ const Intro = () => {
           {/* yahan change hy darkmode ka */}
           <span style={{ color: darkMode ? "white" : "" }}>Hy! I Am</span>
           <span>Shivam kumar</span>
+          
+          
           <span>
-           Passionate and seasoned, I am a results-driven programmer and web developer committed to producing impactful and high-quality solutions that seamlessly blend innovation with an exceptional user experience.
+          I'm a B.Tech 3rd year Student of Motilal Nehru National Institute of Technology Allahabad, Uttar Pradesh. With expertise in Data Structures and Algorithms (DSA), Development in ReactJs, NodeJs, MongoDB & much more. As a dynamic and forward-thinking programmer, I'm committed to staying up to date with the latest trends and technologies in the field.
           </span>
+          
+       
         </div>
         <Link to="contact" smooth={true} spy={true}>
           <button className="button i-button">Collaborate</button>

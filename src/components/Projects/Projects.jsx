@@ -2,7 +2,6 @@ import React, {useEffect,useContext} from 'react'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import Pendown from "../../img/pendown.png";
-import './Projects.css'
 
 import { themeContext } from "../../Context";
 
@@ -65,29 +64,18 @@ const Projects = () => {
   return (
 
 
-
-    <div className="" id="projects">
-
-      <span style={{color: darkMode?'white': ''}} className="projects">Projects</span>
-
-
-     
-
-
-
+<div name="projects" className='h-auto max-h-screen-lg  bg-gradient-to-b from-black to-gray-800 w-full text-white
+     md:h-screen'>
+      <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
+        <div className='pb-8'>
+          <h2 className='text-4xl font-bold inline border-b-4 border-gray-400'>Projects</h2>
+          <p className='py-6'>Check out some of my work </p>
+        </div>
+        <div   className='grid sm:grid-cols-2 md:grid-cols-3 mb-20 gap-8 px-12 sm:px-0'>
+          
+        </div>
       </div>
-
-
-
-//     <div className='projects'>
-//     <div className='projects-content'>
-//       <div className='projects-header'>
-//         <h2 className='projects-title'>Projects</h2>
-//         <p className='projects-description'>Check out some of my work</p>
-//       </div>
-     
-//     </div>
-//   </div>
+    </div>
   )
 }
 

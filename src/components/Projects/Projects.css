@@ -1,0 +1,13 @@
+.projects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 40px;
+    font-weight: bolder;
+    text-decoration: underline;
+  }
+
+
+  
+

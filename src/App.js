@@ -5,6 +5,7 @@ import "./App.css";
 import Experience from "./components/Experience/Experience";
 import Works from "./components/Works/Works";
 import Portfolio from "./components/Portfolio/Portfolio";
+import Projects from "./components/Projects/Projects";
 import Testimonial from "./components/Testimonials/Testimonial";
 import About from "./components/About/About";
 import Contact from "./components/Contact/Contact";
@@ -25,6 +26,7 @@ function App() {
       <Navbar />
       <Intro />
       <About />
+      <Projects />
       <Portfolio />
       <Works />
       <Services />

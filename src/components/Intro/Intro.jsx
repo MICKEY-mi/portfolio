@@ -87,9 +87,10 @@ const Intro = () => {
           <FloatingDiv img={thumbup} text1="Programmer"/>
         </motion.div>
 
-        <div className="blur" style={{ background: "rgb(222 168 255)" }}></div>
+        <div className="blury" style={{ background: "rgb(222 168 255)" }}></div>
+        <div className="blury" style={{ background: "rgb(222 168 255)" }}></div>
         <div
-          className="blur"
+          className="blury"
           style={{
             background: "rgb(118 233 255)",
             top: "17rem",
@@ -98,6 +99,7 @@ const Intro = () => {
             left: "-9rem",
           }}
         ></div>
+       
       </div>
 
       

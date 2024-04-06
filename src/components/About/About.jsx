@@ -2,7 +2,8 @@ import React, { useContext } from "react";
 import { AiOutlineCloudDownload } from 'react-icons/ai'
 // import './About.css';
 import { themeContext } from "../../Context";
-import Resume from '../Services/myresume.pdf'
+import codechef from '../../img/codechef.png';
+import codeforce from '../../img/codeforce.png';
 
 const About = () => {
   const theme = useContext(themeContext);
@@ -20,13 +21,22 @@ const About = () => {
                 </div>
 
                 <p data-aos="slide-up" data-aos-duration="500" className='text-xl mt-5 ease-in fade-in'>
-                I embarked my journey as a B.Tech Electrical Engineering student at Motilal Nehru National Institute of Technology Allahabad College in 2021. Along the way, I fearlessly explored various fields, including Web Developement, Gaming, Competative Programming, Data Structure and Algorithms and VPS hosting. I delved into the world of cutting-edge technologies, such as Python, Django, Cloud computing, React, and Firebase. I also took my passion for technology and leadership to new heights as a Web-Developer of Robotics Club in my college, alongside my equally enthusiastic classmates.
+                I embarked my journey as a B.Tech Electrical Engineering student at Motilal Nehru National Institute of Technology Allahabad College in 2021. Along the way, I fearlessly explored various fields, including Web Development, Gaming, Competitive  Programming, Data Structure and Algorithms and VPS hosting. I delved into the world of cutting-edge technologies, such as Python, Django, Cloud computing, React, and Firebase. I also took my passion for technology and leadership to new heights as a Web-Developer of Robotics Club in my college, alongside my equally enthusiastic classmates.
                 </p>
                 <br />
                 <p data-aos="slide-up" data-aos-duration="500" className='text-xl mt-5 ease-in fade-in'>
                 In a constant pursuit of sharing knowledge and fostering growth, I've took part in numerous Hackthons. With a commitment to personal development and a drive for making a positive impact within the tech community.
                 </p>
+                <br />
                 
+<p className="coding" style={{display:"flex"}}>
+    <a href="https://www.codechef.com/users/mickeyth59">
+    <img src={codechef} alt=""  height={100} width={100}/>
+    </a>
+    <a href="https://codeforces.com/profile/MICKEYmickey">
+    <img src={codeforce} alt=""  height={100} width={100}/>
+    </a>
+    </p>
                 <div data-aos="zoom-in" data-aos-duration="500" className='mb-20 fade-in flex mx-auto items-center justify-center hover:scale-105 duration-300 rounded bg-gradient-to-b from-cyan-500 to-blue-500 lg:w-1/5 md:w-1/5 w-2/4 h-10 text-center cursor-pointer mt-10 gap-2'>
 
 

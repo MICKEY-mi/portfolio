@@ -36,7 +36,7 @@
 
 .n-list > ul > li :hover {
   color: var(--orange);
-  cursor: pointer;
+  cursor: url("../../img/cursor1.png"),auto;
 }
 
 .n-button {

@@ -23,15 +23,14 @@ const Works = () => {
             Works for All these
           </span>
           <span>Brands & Clients</span>
-          <spane>
-            Collaborate with Students to help them in building their websites.
+          <span style={{ color: darkMode ? "white" : "" }}>
+            Web Developer in Robotics Club Motilal Nehru National Institute of Technology Allahabad.
             <br />
-            provide hosting to them via different paid and unpaid platforms to make their website live.
+            I am also helping the students in hosting their websites to make their website live.
             <br />
-            Developed a website for Senior mentorship program to provide
-            <br />
-            juniors study materials and to resolve their queries as per the new curriculum.
-          </spane>
+            I Developed a website for Senior mentorship program to provide juniors study materials<br/>
+             and to resolve their queries as per the new curriculum.
+          </span>
           <Link to="contact" smooth={true} spy={true}>
             <button className="button s-button">Work with Me</button>
           </Link>
